@@ -417,7 +417,7 @@ h5 {
   position: relative;
   overflow: hidden;
   display: block;
-  max-width: 48%; 
+  max-width: 33%; 
   margin-bottom: 2rem;
 }
 
@@ -729,6 +729,8 @@ h5 {
 .close-modal:focus {
   color: var(--secondary-accent);
 }
+
+
 
 
 @keyframes jumping-dots {
