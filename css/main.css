@@ -360,40 +360,104 @@ h5 {
   margin-top: 4rem;
 }
 
-.services-row {
+
+/* Experience Section */
+.experience-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.experience-row {
   display: flex;
-  row-gap: 6rem;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 4rem; /* Increased the gap between items */
 }
 
-.service-card {
-  flex: 33.33333333%;
+.experience-item {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for content */
+  align-items: flex-start;
+  gap: 2rem; /* Added some space between the image and text */
+  position: relative;
+  padding-bottom: 1.5rem; /* Adds space below each item for the line */
 }
 
-.service-card-img {
-  display: block;
-  height: 5rem;
-  margin: 0 auto 2rem;
-  filter: invert(33%) sepia(7%) saturate(243%) hue-rotate(145deg)
-    brightness(94%) contrast(81%);
+.experience-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Thickness of the line */
+  background-color: #ccc; /* Light gray color for the line */
+  margin-top: 1rem; /* Adds space between the content and the line */
 }
 
-.service-card-title {
+/* Image Styling */
+.experience-img {
+  width: auto; /* Fixed width */
+  height: 30rem; /* Fixed height */
+  object-fit:cover; /* Ensures the image maintains proportions */
+  border-radius: 8px;
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  /* If you want the image to adjust to the container, use width: 100% and height: auto instead */
+}
+
+/* Text/Details Styling */
+.experience-details {
+  flex: 1; /* Allow the text container to grow */
   text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.experience-company-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.experience-company {
+  font-size: 2.2rem;
   font-weight: 600;
-  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
 }
 
-.service-card p {
-  font-size: 1.5rem;
-  line-height: 1.7;
+.experience-date {
+  font-size: 1.4rem;
+  color: #888;
   text-align: center;
-  color: var(--gray-text-color);
 }
+
+.experience-job-title {
+  font-size: 1.8rem;
+  color: #4d4d4d; /* Dark gray */
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.experience-details p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.experience-details ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style: disc; /* Bulleted points */
+  text-align: left; /* Align the points to the left */
+}
+
+.experience-details ul li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
 
 /* Works */
 .projects {
@@ -442,6 +506,7 @@ h5 {
 }
 
 .project-img {
+  
   width: 100%;
   display: block;
   border: 4px solid var(--gray-color-3); 
@@ -670,6 +735,14 @@ h5 {
   animation-delay: 0s;
 }
 /* Modal Styling */
+.projects-subtitle {
+  font-size: 1.7rem;
+  color: var(--gray-text-color); /* Light gray color */
+  text-align: center;
+  margin-top: 1rem; /* Space between the title and subtitle */
+  font-weight: 400; /* Lighter weight for the subtitle */
+}
+
 .project-modal {
   display: none;
   position: fixed;
