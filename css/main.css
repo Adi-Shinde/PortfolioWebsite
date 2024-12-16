@@ -130,21 +130,56 @@ h5 {
   text-transform: uppercase;
 }
 
+
 .white {
   color: var(--white-color);
 }
-
+#about,
+#projects,
+#contact {
+  scroll-margin-top: 4rem; /* Adjust according to your header height */
+}
+#experience {
+  scroll-margin-top: 14rem; /* Adjust this value if your header height changes */
+}
 /* Header */
+/* Header - Translucent background on the main page */
 .header {
   z-index: 100;
-  background-color: transparent;
-  height: 7.2rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8), /* Subtle white at the top */
+    rgba(240, 240, 240, 0.6) /* Lighter translucent at the bottom */
+  );
+  height: 11rem;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
+  backdrop-filter: blur(6px); /* Enhanced frosted glass effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, backdrop-filter 0.3s ease;
 }
+
+/* Header - Sticky style with opaque background */
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1999;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.95), /* More opaque white at the top */
+    rgba(245, 245, 245, 0.85) /* Slightly less translucent at the bottom */
+  );
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for separation */
+  padding: 1.5rem 0; /* Compact padding for sticky header */
+  backdrop-filter: blur(12px); /* Stronger blur for contrast in sticky state */
+  animation: slideInDown 0.3s ease-in-out;
+}
+
 
 .header-nav {
   display: flex;
@@ -154,18 +189,6 @@ h5 {
   height: 7.2rem;
 }
 
-.header-sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1999;
-  background-color: rgba(255, 255, 255, 0.95);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
-  padding-top: 0;
-  padding-bottom: 0;
-  animation: slideInDown 0.3s ease-in-out;
-}
 
 @keyframes slideInDown {
   0% {
@@ -180,23 +203,21 @@ h5 {
 
 .logo {
   position: relative;
-  padding: 0 1.2rem 0.3rem 0;
-  line-height: 1;
-  font-weight: 600;
-  font-size: 3.2rem;
-  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: var(--primary-accent);
 }
 
 .logo span {
   color: var(--secondary-accent);
-  font-size: 4rem;
+  font-size: 4.2rem;
 }
 
 .nav-list {
   display: flex;
-  column-gap: 2.6rem;
-  font-weight: 400;
-  font-size: 1.6rem;
+  column-gap: 3rem;
+  font-weight: 500;
+  font-size: 2.1rem;
 }
 
 .nav-btn {
@@ -204,7 +225,12 @@ h5 {
 }
 
 .nav-link {
-  color: var(--gray-text-color);
+  color: var(--main-text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--secondary-accent);
 }
 
 .nav-link.active {
@@ -261,7 +287,13 @@ h5 {
   max-width: 100%;
   height: auto;
   vertical-align: bottom;
+
+  /* New styles added below */
+  border-radius: 12px; /* Slightly rounded corners */
+  margin-top: -20px; /* Moves the image slightly upward */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for a polished look */
 }
+
 
 .about-social-list {
   display: flex;
@@ -327,37 +359,30 @@ h5 {
   display: block;
   width: 100%;
   margin-bottom: 3rem;
+  
 }
 
-.skill-title,
-.skill-percent {
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
 }
 
-.skill-percent {
-  float: right;
+.skill-icon img {
+  width: var(--icon-size, 7rem); /* Default size is 6rem */
+  transition: transform 0.2s ease-in-out;
 }
 
-.skillbar {
-  height: 0.4rem;
-  background-color: var(--secondary-accent);
+.skill-icon img:hover {
+  transform: scale(1.2); /* Enlarge on hover */
 }
 
-.skillbar:before {
-  background: var(--gray-color);
-  content: "";
-  height: 0.4rem;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-}
 
 .about-download-btn {
   margin-top: 4rem;
+  margin-left:18rem
 }
 
 
@@ -366,6 +391,7 @@ h5 {
   text-align: center;
   margin-bottom: 3rem;
 }
+
 
 .experience-row {
   display: flex;
@@ -440,7 +466,7 @@ h5 {
 }
 
 .experience-details p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
