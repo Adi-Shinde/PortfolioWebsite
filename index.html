@@ -119,10 +119,11 @@
         <div class="about-row">
           <div class="about-content">
             <p class="about-descr">
-              Pursuing my passion for technology and innovation, I am currently studying Computer Engineering at Toronto 
-              Metropolitan University. I am interested in all things electronics, such as robotics and circuit design. I also have 
-              experience developing with Java, C++, Python and HTML/CSS/JS. In addition to my academic pursuits, I can be found at 
-              the gym or tinkering with electronics.<br />
+              I'm a Computer Engineering student at Toronto Metropolitan University, heading into my third year this September. 
+              I’m particularly interested in software development and have experience with languages like Java, C++, Python, and 
+              web technologies such as HTML, CSS, and JavaScript. I enjoy working on projects that challenge me to think creatively and 
+              solve problems. Outside of school, I like staying active—whether it’s hitting the gym, spending time reading, or exploring 
+              new hobbies to keep things interesting<br />
               
             <div class="about-download-btn">
               <a href="img/AdityaShinde_Resume.pdf" class="btn btn-white" download="AdityaShinde_Resume">Download Resume here</a>
@@ -179,12 +180,12 @@
                   </div>
                   <h4 class="experience-job-title" style="color: darkgray;">Software Development and Propulsion Team</h4>
                   <p>
-                    short description of the job.
+                    
                   </p>
                   <ul>
                     <li>-> Develop software for control systems using Python, C++, and JS for real-time data processing, and system integration.</li>
                     <li>-> Conducted ablation testing as part of the Propulsion subteam, to develop high-performance rocket engine modules.</li>
-                    <li>-> another point?</li>
+                    <!--<li></li>-->
                   </ul>
                 </div>
               </div>
@@ -201,12 +202,12 @@
                   </div>
                   <h4 class="experience-job-title" style="color: darkgray;">External and EDI Committee</h4>
                   <p>
-                    short description of the job.
+                    
                   </p>
                   <ul>
                     <li>-> Managed the recruitment and selection of students for conferences and meetings at other universities.</li>
                     <li>-> Led the planning and execution of events and initiatives to support incoming first-year students at the university.</li>
-                    <li>-> another point?</li>
+                    <!--<li></li>-->
                   </ul>
                 </div>
               </div>
@@ -223,7 +224,7 @@
                   </div>
                   <h4 class="experience-job-title" style="color: darkgray;">Engine and Electrical Team</h4>
                   <p>
-                    short description of the job.
+                    
                   </p>
                   <ul>
                     <li>-> Worked with a team to design, build, and race a high-efficiency vehicle for the SAE Supermileage Competition.</li>
@@ -248,8 +249,9 @@
       <div class="container container-lg">
         <div class="projects-title">
           <h2 class="title">Projects</h2>
-          <!-- New text below the title -->
-          <p class="projects-subtitle">(click on each project image to view more details)</p>
+          <h3></h3>
+          
+          <p class="projects-subtitle"> *complete this soon*</br>(click on each project image to view more details) </p>
         </div>
     
         <div class="projects-row">
@@ -339,15 +341,15 @@
         <div class="contact-title">
           <h2 class="title">Contact</h2>
         </div><div class="contact-content">
-          <p>Email me to get in touch!</p>  <!-- *changes here* -->
+          <p>Email me to get in touch!</p> 
         </div>
 
         <form data-aos="zoom-in">
-          <textarea name="message" id="messageBox" cols="30" rows="10" placeholder="Your Message" required></textarea>  <!-- *changes here* -->
+          <textarea name="message" id="messageBox" cols="30" rows="10" placeholder="Your Message" required></textarea> 
         </form>
 
         <div class="contact-button" data-aos="fade-up">
-          <a href="#" id="sendMessage" class="btn btn-red">Send Message</a>  <!-- *changes here* -->
+          <a href="#" id="sendMessage" class="btn btn-red">Send Message</a> 
         </div>
       </div>
     </section>
@@ -377,25 +379,25 @@
       <a href="#home">
         <img src="img/icons/arrow_up.png" alt="Back to top" />
       </a>
-    </div>
+    </div>x
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
 
-    <!-- JavaScript for handling Send Message functionality -->
+    
     <script>
       document.querySelector('#sendMessage').addEventListener('click', function(event) {
-        event.preventDefault();  // Prevent default behavior of the link
+        event.preventDefault();  
 
         const message = document.querySelector('textarea[name="message"]').value;  // Get message content
-        const email = 'aditya.shinde@torontomu.ca';  // Your email address
-        const subject = 'Inquiry from Portfolio Website';  // Email subject
-        const body = encodeURIComponent(message);  // Encode message body
+        const email = 'aditya.shinde@torontomu.ca'; 
+        const subject = 'Inquiry from Portfolio Website'; 
+        const body = encodeURIComponent(message);  
 
-        // Construct the mailto link
+        
         const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
 
-        // Open Gmail with prefilled message
+        // Open Gmail 
         window.open(mailtoLink, '_blank');
       });
     </script>
