@@ -49,22 +49,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("project-modal");
   const modalImg = document.getElementById("modal-img");
   const modalTitle = document.getElementById("modal-title");
-  const modalText = document.getElementById("modal-text"); 
+  const modalText = document.getElementById("modal-text");
   const closeModal = document.querySelector(".close-modal");
 
   projectBoxes.forEach((box) => {
     box.addEventListener("click", () => {
       const imgSrc = box.querySelector(".project-img").src;
-      const caption = box.dataset.description; // Fetch the description
-      const title = box.querySelector("h5").textContent; // Fetch the title
-  
+      const caption = box.dataset.description.replace(/•/g, "<br>•"); // Add line breaks before each bullet
+      const title = box.querySelector("h5").textContent;
+
       modal.style.display = "block";
       modalImg.src = imgSrc;
       modalTitle.textContent = title;
-      modalText.textContent = caption;
+      modalText.innerHTML = caption; // Use innerHTML to preserve formatting
     });
   });
-  
 
   closeModal.addEventListener("click", () => {
     modal.style.display = "none";
