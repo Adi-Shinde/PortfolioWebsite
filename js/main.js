@@ -55,13 +55,18 @@ document.addEventListener("DOMContentLoaded", () => {
   projectBoxes.forEach((box) => {
     box.addEventListener("click", () => {
       const imgSrc = box.querySelector(".project-img").src;
-      const caption = box.dataset.description.replace(/•/g, "<br>•"); // Add line breaks before each bullet
       const title = box.querySelector("h5").textContent;
+      const link = box.dataset.link;
+      const caption = box.dataset.description.replace(/•/g, "<br>•");
 
       modal.style.display = "block";
       modalImg.src = imgSrc;
       modalTitle.textContent = title;
-      modalText.innerHTML = caption; // Use innerHTML to preserve formatting
+      modalText.innerHTML = `
+        <a href="${link}" target="_blank" class="visit-link modal-link">
+          Visit the project here
+        </a><br><br>
+        ${caption}`;
     });
   });
 
