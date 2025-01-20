@@ -13,14 +13,20 @@ window.addEventListener("load", function () {
   setTimeout(hidePreloader, 1700);
 });
 
-// Hamburger menu
-navBtn.onclick = () => {
-  if (nav.classList.toggle("open")) {
-    navBtnImg.src = "img/icons/close.svg";
-  } else {
-    navBtnImg.src = "img/icons/open.svg";
-  }
+// Hamburger menu toggle
+navBtn.onclick = (event) => {
+  event.stopPropagation(); // Prevent click propagation to the document
+  const isOpen = nav.classList.toggle("open");
+  navBtnImg.src = isOpen ? "img/icons/close.webp" : "img/icons/open.webp";
 };
+
+// Close menu when clicking outside
+document.addEventListener("click", (event) => {
+  if (!nav.contains(event.target) && !navBtn.contains(event.target)) {
+    nav.classList.remove("open");
+    navBtnImg.src = "img/icons/open.webp";
+  }
+});
 
 // Sticky header & "Go to Top" button
 window.addEventListener("scroll", function () {
@@ -43,7 +49,6 @@ AOS.init({
 });
 
 // Modal functionality
-// Updated to use data-description for specific project text
 document.addEventListener("DOMContentLoaded", () => {
   const projectBoxes = document.querySelectorAll(".project-box");
   const modal = document.getElementById("project-modal");
