@@ -99,23 +99,43 @@
   .contact-title {
     margin-bottom: 3rem;
   }
+
+  /* Center social icons under name */
+  .about-social-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Adjust icon size */
+  .social-links-row a {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /* Hero image full-width & centered */
+  .hero-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center !important;
+    margin-top: 2rem;
+  }
+  .hero-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Center "Download Resume" button in About */
+  .about-download-btn {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0;
+  }
 }
-@media (max-width: 320px) {
-.about-download-btn {
-  margin-top: 4rem;
-  margin-left: 1rem;
-}}
-@media () {
-.about-download-btn {
-  margin-top: 4rem;
-  margin-left: 1rem;
-}}
-@media (max-width: 375px) {
-.about-download-btn {
-  margin-top: 4rem;
-  margin-left: 1rem;
-}}
-@media (max-width: 720px) {
+
+@media (max-width: 768px) {
   html {
     font-size: 56.25%;
   }
@@ -136,9 +156,24 @@
     width: 3.5rem;
     height: 3.5rem;
   }
+
+  /* Fine-tune icon size */
+  .social-links-row a {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  /* Reinforce centering on smaller phones */
+  .about-social-list {
+    justify-content: center;
+  }
+
+  .about-download-btn {
+    margin: 1.5rem auto 0;
+  }
 }
 
-@media (max-width: 406px) {
+@media (max-width: 480px) {
   html {
     font-size: 50%;
   }
@@ -149,5 +184,25 @@
 
   .footer-copyright p {
     font-size: 1rem;
+  }
+
+  /* Tiniest icon size */
+  .social-links-row a {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .about-download-btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-download-btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
   }
 }

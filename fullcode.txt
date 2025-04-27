@@ -1,0 +1,1938 @@
+index.html:
+<code>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya's Portfolio</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="jumping-dots">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a href="#home" class="logo">aditya<span>.</span>shinde</a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/arrow_up.png"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1800"
+          data-aos-duration="2000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading">Aditya Shinde</h1>
+            <span class="hero-heading-subtitle">Software Engineer</span>
+            <span class="hero-heading-subtitle university-name"
+              >Toronto Metropolitan University (Formerly Ryerson
+              University)</span
+            >
+
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="https://github.com/Adi-Shinde" target="_blank">
+                  <img
+                    src="img/icons/github.png"
+                    alt="Link to GitHub account"
+                  />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/adityapshinde/"
+                  target="_blank"
+                >
+                  <img
+                    src="img/icons/linkedin.png"
+                    alt="Link to LinkedIn profile"
+                  />
+                </a>
+
+                <a href="https://www.instagram.com/adiii._.004" target="_blank">
+                  <img
+                    src="img/icons/instagram.png"
+                    alt="Link to Instagram profile"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">Click here to see my Projects</a>
+              <a
+                href="img/AdityaShinde_Resume.pdf"
+                class="btn btn-white"
+                download="AdityaShinde_Resume"
+                >Download my Resume here</a
+              >
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="img/hero/hero.png" alt="Image of me" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div class="about-content">
+            <p class="about-descr">
+              I'm a Computer Engineering student at Toronto Metropolitan
+              University, heading into my third year this September. I’m
+              particularly interested in software development and have
+              experience with languages like Java, C++, Python, and web
+              technologies such as HTML, CSS, and JavaScript. I enjoy working on
+              projects that challenge me to think creatively and solve problems.
+              Outside of school, I like staying active—whether it’s hitting the
+              gym, spending time reading, or exploring new hobbies to keep
+              things interesting<br />
+            </p>
+
+            <div class="about-download-btn">
+              <a
+                href="img/AdityaShinde_Resume.pdf"
+                class="btn btn-white"
+                download="AdityaShinde_Resume"
+                >Download Resume here</a
+              >
+            </div>
+          </div>
+          <div class="about-skills">
+            <div class="skills-grid">
+              <div class="skill-icon" title="Java">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                  alt="Java"
+                />
+              </div>
+              <div class="skill-icon" title="C++">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  alt="C++"
+                />
+              </div>
+              <div class="skill-icon" title="Python">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                  alt="Python"
+                />
+              </div>
+              <div class="skill-icon" title="HTML">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML"
+                />
+              </div>
+              <div class="skill-icon" title="CSS">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS"
+                />
+              </div>
+              <div class="skill-icon" title="JavaScript">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                />
+              </div>
+              <div class="skill-icon" title="React">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React"
+                />
+              </div>
+              <div class="skill-icon" title="MongoDB">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB"
+                />
+              </div>
+              <div class="skill-icon" title="MySQL">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                  alt="MySQL"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="experience" class="services-row">
+          <div class="container">
+            <div class="experience-title">
+              <h2 class="title">Experience</h2>
+            </div>
+            <div class="experience-row">
+              <!-- Experience One -->
+              <div class="experience-item">
+                <img
+                  src="img/works/07.jpg"
+                  alt="Experience One Image"
+                  class="experience-img"
+                />
+                <div class="experience-details">
+                  <div class="experience-company-date">
+                    <h3 class="experience-company">
+                      Metropolitan Aerospace and Combustion Hub
+                    </h3>
+                    <span class="experience-date">10/2024 - present</span>
+                  </div>
+                  <h4 class="experience-job-title" style="color: darkgray">
+                    Software Development and Propulsion Team
+                  </h4>
+                  <p></p>
+                  <ul>
+                    <li>
+                      -> Develop software for control systems using Python, C++,
+                      and JS for real-time data processing, and system
+                      integration.
+                    </li>
+                    <li>
+                      -> Conducted ablation testing as part of the Propulsion
+                      subteam, to develop high-performance rocket engine
+                      modules.
+                    </li>
+                    <!--<li></li>-->
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Experience Two -->
+              <div class="experience-item">
+                <img
+                  src="img/works/08.jpg"
+                  alt="Experience Two Image"
+                  class="experience-img"
+                />
+                <div class="experience-details">
+                  <div class="experience-company-date">
+                    <h3 class="experience-company">
+                      Metropolitan Undergraduate Engineering Society
+                    </h3>
+                    <span class="experience-date">07/2023 - 12/2024</span>
+                  </div>
+                  <h4 class="experience-job-title" style="color: darkgray">
+                    External and EDI Committee
+                  </h4>
+                  <p></p>
+                  <ul>
+                    <li>
+                      -> Managed the recruitment and selection of students for
+                      conferences and meetings at other universities.
+                    </li>
+                    <li>
+                      -> Led the planning and execution of events and
+                      initiatives to support incoming first-year students at the
+                      university.
+                    </li>
+                    <!--<li></li>-->
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Experience Three -->
+              <div class="experience-item">
+                <img
+                  src="img/works/09.jpg"
+                  alt="Experience Three Image"
+                  class="experience-img"
+                />
+                <div class="experience-details">
+                  <div class="experience-company-date">
+                    <h3 class="experience-company">Ryerson Supermileage SAE</h3>
+                    <span class="experience-date">07/2022 - 08/2023</span>
+                  </div>
+                  <h4 class="experience-job-title" style="color: darkgray">
+                    Engine and Electrical Team
+                  </h4>
+                  <p></p>
+                  <ul>
+                    <li>
+                      -> Worked with a team to design, build, and race a
+                      high-efficiency vehicle for the SAE Supermileage
+                      Competition.
+                    </li>
+                    <li>
+                      -> Engineered custom components for the Briggs & Stratton
+                      206 engine to optimize fuel efficiency and performance.
+                    </li>
+                    <li>
+                      -> Developed and integrated the internal electrical system
+                      and modules for vehicle and engine system synchronization.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Projects</h2>
+          <h3></h3>
+
+          <p class="projects-subtitle">
+            (click on project image to view more details)
+          </p>
+          <p class="projects-subtitle">
+            (Click on visit project to go to github)
+          </p>
+        </div>
+
+        <div class="projects-row">
+          <!-- Project 1: AudioScribe -->
+          <div
+            class="project-box"
+            data-description="
+            • Built a real-time audio-to-text transcription app using Whisper AI for speech recognition.
+            • Developed the frontend with Next.js, TypeScript, and lucide-react for responsive design.
+            • Integrated audio upload and seamless transcription features.
+          "
+            data-link="https://audioscribe.vercel.app"
+          >
+            <a href="#!">
+              <img
+                class="project-img"
+                src="img/works/01.jpg"
+                alt="AudioScribe"
+              />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">AudioScribe</h5>
+                  <p class="white">
+                    AI-based Speech to Text Visualizer&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <a
+                    href="https://audioscribe.vercel.app"
+                    target="_blank"
+                    class="visit-link white"
+                  >
+                    --> Visit the project here</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 2: Bank Database System -->
+          <div
+            class="project-box"
+            data-description="
+            • Built a banking system using Java, Swing, and MySQL for user authentication and account management.
+            • Implemented features like account creation, withdrawals, deposits, and PIN management with backend logic.
+            • Added multi-user support with secure login and signup functionalities with Swing GUI.
+            • Used MySQL to store user accounts, transactions, and banking statements with optimized SQL queries.
+          "
+            data-link="https://github.com/Adi-Shinde/BankDatabaseSystem"
+          >
+            <a href="#!">
+              <img
+                class="project-img"
+                src="img/works/02.jpg"
+                alt="Bank Management System"
+              />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Bank Database System</h5>
+                  <p class="white">
+                    Java, Swing, and
+                    MySQL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <a
+                    href="https://github.com/Adi-Shinde/BankDatabaseSystem"
+                    target="_blank"
+                    class="visit-link white"
+                  >
+                    --> Visit the project here</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 3: Indeed Job Platform -->
+          <div
+            class="project-box"
+            data-description="
+          • Developed a job application platform with React.js and Material-UI for the frontend.
+          • Built the backend using Spring Boot and Hibernate with MongoDB for data management.
+          • Implemented features like job posting, resume uploads, and application tracking.
+          • Developed RESTful APIs to support hiring managers and job seekers.
+           "
+            data-link="https://github.com/Adi-Shinde/Fullstack_Indeed_Application"
+          >
+            <a href="#!">
+              <img
+                class="project-img"
+                src="img/works/03.jpg"
+                alt="Indeed Job Platform"
+              />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Indeed Job Platform</h5>
+                  <p class="white">
+                    React.js, Spring Boot,
+                    Hibernate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <a
+                    href="https://github.com/Adi-Shinde/Fullstack_Indeed_Applicationp"
+                    target="_blank"
+                    class="visit-link white"
+                  >
+                    --> Visit the project here</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 4: PathSolver DSA -->
+          <div
+            class="project-box"
+            data-description="
+          • An interactive webpage to visualize pathfinding algorithms like A*, Dijkstra's, BFS, and DFS, showcasing understanding of data structures and algorithms.
+          • Real-time grid interaction using HTML5, and event-driven JavaScript with less than 2 second delay
+          • Enhanced user experience with intuitive visual feedback for grid traversal and pathfinding results.
+          • Incorporated responsive design for seamless interaction across devices, along with GitHub and social links for project presentation.
+         "
+            data-link="https://pathsolverdsa.vercel.app/"
+          >
+            <a href="#!">
+              <img
+                class="project-img"
+                src="img/works/04.jpg"
+                alt="Pathsolver Visualizer"
+              />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Pathsolver DSA Visualizer</h5>
+                  <p class="white">
+                    Interactive Algorithm
+                    Demonstrator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <a
+                    href="https://pathsolverdsa.vercel.app/  "
+                    target="_blank"
+                    class="visit-link white"
+                  >
+                    --> Visit the project here</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 5: Simple General-Purpose Processor -->
+          <div
+            class="project-box"
+            data-description="
+            • Designed and implemented a simple general-purpose processor using VHDL, Quartus II, and an FPGA board.
+            • Developed key components, including an Arithmetic and Logic Unit (ALU), a Control Unit with a Finite State Machine (FSM), and a 4x16 Decoder.
+            • Utilized microcode operations to control arithmetic and logic processes, with outputs displayed on seven-segment displays.
+          "
+            data-link="https://github.com/username/AudioScribe"
+          >
+            <a href="#!">
+              <img
+                class="project-img"
+                src="img/works/05.jpg"
+                alt="Processor Design"
+              />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Simple Processor Design</h5>
+                  <p class="white">
+                    VHDL, Quartus II,
+                    FPGA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <a
+                    href="https://audioscribe.vercel.app"
+                    target="_blank"
+                    class="visit-link white"
+                  >
+                    --> Visit the project here</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Project 6: Data Analysis for Diabetic Patients -->
+          <div
+            class="project-box"
+            data-description="
+            • Created a C program to read and analyze data from government statistics for diabetic patients. 
+            • Processed and displayed the data in a user-friendly manner using graphs generated with GNU Plot.
+            • Developed insights based on patterns and trends in the dataset.
+           "
+            data-link="https://github.com/username/AudioScribe"
+          >
+            <a href="#!">
+              <img
+                class="project-img"
+                src="img/works/06.jpg"
+                alt="Data Analysis for Diabetic Patients"
+              />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Data Analysis</h5>
+                  <p class="white">
+                    C Programming and GNU
+                    Plot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                  <a
+                    href="https://audioscribe.vercel.app"
+                    target="_blank"
+                    class="visit-link white"
+                  >
+                    --> Visit the project here</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="project-modal" class="project-modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img id="modal-img" src="" alt="Expanded Project Image" />
+        <h3 id="modal-title" class="modal-title"></h3>
+        <p id="modal-text" class="modal-description"></p>
+      </div>
+    </div>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contact</h2>
+        </div>
+        <div class="contact-content">
+          <p>Email me to get in touch!</p>
+        </div>
+
+        <form data-aos="zoom-in">
+          <textarea
+            name="message"
+            id="messageBox"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </form>
+
+        <div class="contact-button" data-aos="fade-up">
+          <a href="#" id="sendMessage" class="btn btn-red">Send Message</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="https://github.com/Adi-Shinde" target="_blank">
+              <img src="img/icons/github.png" alt="Link to GitHub account" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adityapshinde/"
+              target="_blank"
+            >
+              <img
+                src="img/icons/linkedin.png"
+                alt="Link to LinkedIn profile"
+              />
+            </a>
+            <a href="https://www.instagram.com/adiii._.004/" target="_blank">
+              <img
+                src="img/icons/instagram.png"
+                alt="Link to Instagram profile"
+              />
+            </a>
+          </div>
+          <div class="footer-copyright">
+            <p>Aditya Shinde</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.png" alt="Back to top" />
+      </a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      document
+        .querySelector("#sendMessage")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+
+          const message = document.querySelector(
+            'textarea[name="message"]'
+          ).value; // Get message content
+          const email = "aditya.shinde@torontomu.ca";
+          const subject = "Inquiry from Portfolio Website";
+          const body = encodeURIComponent(message);
+
+          const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+
+          // Open Gmail
+          window.open(mailtoLink, "_blank");
+        });
+    </script>
+  </body>
+</html>
+
+</code>
+
+README.md:
+<code>
+Personal Portfolio Website
+
+</code>
+
+css\main.css:
+<code>
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-bg-color: #f7fbfd;
+  --primary-accent: #0c1618;
+  --secondary-accent: #6f1d1b;
+
+  --main-text-color: #0c1618;
+  --gray-text-color: #565a5b;
+
+  --white-color: #fff;
+  --gray-color: #e9e8e8;
+  --gray-color-2: #c0c0c0;
+  --gray-color-3: #e6e6e6;
+
+  --color-preloader-bg: var(--white-color);
+  --color-dots: #1a1a1a;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 160rem;
+}
+
+.title {
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  height: 5.2rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 5.2rem;
+  padding: 0 3.6rem;
+  margin: 0 1.2rem 1.6rem 0;
+  color: var(--white-color);
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: var(--primary-accent);
+  border: 2px solid var(--primary-accent);
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--secondary-accent);
+  border-color: var(--secondary-accent);
+  color: var(--white-color);
+  outline: 0;
+}
+
+.btn:active {
+  background-color: #8b4a48;
+}
+
+.btn-white {
+  background: transparent;
+  font-weight: 700;
+  border: 2px solid var(--primary-accent);
+  color: var(--primary-accent);
+  transition: all 0.3s ease-in;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background: var(--primary-accent);
+  border: 2px solid var(--primary-accent);
+  color: var(--white-color);
+}
+
+.btn-white:active {
+  background-color: #3c4446;
+}
+
+.btn-red {
+  background: var(--secondary-accent);
+  border: 2px solid var(--secondary-accent);
+  color: var(--white-color);
+  transition: all 0.3s ease-in;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+  background: var(--primary-accent);
+  border: 2px solid var(--primary-accent);
+}
+.hero-heading-subtitle.university-name {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--gray-text-color);
+  margin-top: 1rem;
+}
+
+.btn-red:active {
+  background-color: #3c4446;
+}
+
+h5 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.white {
+  color: var(--white-color);
+}
+#about {
+  scroll-margin-top: 4rem; /* Adjust according to your header height */
+}
+#projects,
+#contact {
+  scroll-margin-top: 8rem; /* Adjust according to your header height */
+}
+#experience {
+  scroll-margin-top: 14rem; /* Adjust this value if your header height changes */
+}
+/* Header */
+/* Header - Translucent background on the main page */
+.header {
+  z-index: 100;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8),
+    /* Subtle white at the top */ rgba(240, 240, 240, 0.6)
+      /* Lighter translucent at the bottom */
+  );
+  height: 11rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem 0;
+  backdrop-filter: blur(6px); /* Enhanced frosted glass effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    backdrop-filter 0.3s ease;
+}
+
+/* Header - Sticky style with opaque background */
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1999;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.95),
+    /* More opaque white at the top */ rgba(245, 245, 245, 0.85)
+      /* Slightly less translucent at the bottom */
+  );
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for separation */
+  padding: 1.5rem 0; /* Compact padding for sticky header */
+  backdrop-filter: blur(12px); /* Stronger blur for contrast in sticky state */
+  animation: slideInDown 0.3s ease-in-out;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5rem;
+  height: 7.2rem;
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.logo {
+  position: relative;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: var(--primary-accent);
+}
+
+.logo span {
+  color: var(--secondary-accent);
+  font-size: 4.2rem;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 3rem;
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+
+.nav-btn {
+  display: none;
+  width: 50px;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--secondary-accent);
+}
+
+.nav-link.active {
+  color: var(--secondary-accent);
+  font-weight: 600;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  padding-top: 18rem;
+  background-color: var(--primary-bg-color);
+}
+
+.hero-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  text-align: left;
+  align-self: center;
+  flex: 0 0 58.3333%;
+  padding: 2rem;
+}
+
+.hero-greeting {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: var(--secondary-accent);
+}
+
+.hero-heading {
+  margin: 0.5rem 0;
+  font-weight: 500;
+  font-size: 8rem;
+  line-height: 1.2;
+}
+
+.hero-heading-subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.hero-img {
+  flex: 0 0 41.6667%;
+  text-align: right !important;
+  padding: 0 1.5rem;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+
+  /* New styles added below */
+  border-radius: 12px; /* Slightly rounded corners */
+  margin-top: -20px; /* Moves the image slightly upward */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for a polished look */
+}
+
+.about-social-list {
+  display: flex;
+}
+
+.social-links-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  margin: 4rem 0 4rem;
+}
+
+.social-links-row a {
+  height: 5rem;
+  width: 5rem;
+  filter: saturate(160%) contrast(80%);
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links-row a:hover {
+  transform: scale(1.2);
+}
+
+/* About section */
+.about {
+  padding: 10rem 0;
+}
+
+.about-title {
+  margin-bottom: 4rem;
+}
+
+.about-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 6rem;
+  margin-bottom: 8rem;
+}
+
+.about-descr {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--gray-text-color);
+}
+
+.about-content {
+  flex: 60%;
+  padding-right: 3rem;
+}
+
+.about-skills {
+  min-width: 45rem;
+  padding-left: 3rem;
+}
+
+.skill {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.skill-icon img {
+  width: var(--icon-size, 7rem); /* Default size is 6rem */
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-icon img:hover {
+  transform: scale(1.2); /* Enlarge on hover */
+}
+
+.about-download-btn {
+  margin-top: 4rem;
+  margin-left: 18rem;
+}
+
+/* Experience Section */
+.experience-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.experience-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem; /* Increased the gap between items */
+}
+
+.experience-item {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for content */
+  align-items: flex-start;
+  gap: 2rem; /* Added some space between the image and text */
+  position: relative;
+  padding-bottom: 1.5rem; /* Adds space below each item for the line */
+}
+
+.experience-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Thickness of the line */
+  background-color: #ccc; /* Light gray color for the line */
+  margin-top: 1rem; /* Adds space between the content and the line */
+}
+
+/* Image Styling */
+.experience-img {
+  width: auto; /* Fixed width */
+  height: 30rem; /* Fixed height */
+  object-fit: cover; /* Ensures the image maintains proportions */
+  border-radius: 8px;
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  /* If you want the image to adjust to the container, use width: 100% and height: auto instead */
+}
+
+/* Text/Details Styling */
+.experience-details {
+  flex: 1; /* Allow the text container to grow */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.experience-company-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.experience-company {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.experience-date {
+  font-size: 1.4rem;
+  color: #888;
+  text-align: center;
+}
+
+.experience-job-title {
+  font-size: 1.8rem;
+  color: #4d4d4d; /* Dark gray */
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.experience-details p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.experience-details ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style: disc; /* Bulleted points */
+  text-align: left; /* Align the points to the left */
+}
+
+.experience-details ul li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact */
+.contact {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.contact-title {
+  margin-bottom: 4rem;
+}
+
+.contact-content {
+  font-size: 1.8rem;
+  margin: 0 auto 2rem;
+}
+
+.contact form {
+  max-width: 50rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--gray-text-color);
+  border: 0.1rem solid var(--gray-color-2);
+  margin: 0.7rem 0;
+}
+
+.contact form .input-box input {
+  width: 100%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-accent);
+  color: var(--gray-color-3);
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.footer-social {
+  filter: saturate(160%) contrast(80%);
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+
+.footer-copyright {
+  font-size: 1.6rem;
+}
+
+/* "go to top" button */
+.goToTop {
+  z-index: 599;
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--gray-color);
+  top: auto;
+  left: auto;
+  right: 3rem;
+  bottom: 3rem;
+  cursor: pointer;
+  opacity: 0;
+  border-radius: 0.2rem;
+  transition: opacity 350ms;
+}
+
+.goToTop a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  filter: invert(4%) sepia(23%) saturate(2306%) hue-rotate(148deg)
+    brightness(91%) contrast(90%);
+}
+
+.goToTop img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.goToTop:hover {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(102%) contrast(102%);
+}
+
+.goToTop.reveal {
+  display: block;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+/* Preloader with jumping dots */
+#preloader {
+  position: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-preloader-bg);
+  z-index: 3000;
+  height: 100vh;
+  width: 100vw;
+  opacity: 1;
+  overflow: hidden;
+  transition: opacity 0.5s ease-out;
+}
+
+.jumping-dots {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  display: inline-block;
+}
+
+.jumping-dots > div {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: var(--color-dots);
+  border-radius: 50%;
+}
+
+.jumping-dots > div:nth-of-type(1) {
+  left: 20px;
+}
+
+.jumping-dots > div:nth-of-type(3) {
+  left: -20px;
+}
+
+.jumping-dots > div {
+  animation: jumping-dots 1.2s infinite ease;
+  animation-delay: 0.2s;
+}
+
+.jumping-dots > div:nth-of-type(1) {
+  animation-delay: 0.4s;
+}
+
+.jumping-dots > div:nth-of-type(3) {
+  animation-delay: 0s;
+}
+
+/* Projects */
+.projects {
+  padding: 5rem 0;
+  background-color: var(--primary-bg-color);
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-box {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  max-width: 39%;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.project-box a {
+  display: inline-block;
+}
+
+.project-box:hover .project-mask {
+  opacity: 1;
+  visibility: visible;
+}
+
+.project-box:hover .project-mask .project-caption {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.project-box:hover .project-img {
+  transform: scale(1.2);
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  width: 100%;
+}
+
+.project-img {
+  width: 100%;
+  display: block;
+  border: 4px solid var(--gray-color-3);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .project-box {
+    max-width: 40%; /* Single column layout on smaller screens */
+  }
+}
+
+.project-mask {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.project-mask p {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.15rem;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: left;
+}
+
+.project-mask .project-caption {
+  position: absolute;
+  bottom: -6rem;
+  left: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: left;
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 0;
+}
+
+.project-mask p {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.15rem;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: left;
+}
+
+/* Modal Styling */
+.projects-subtitle {
+  font-size: 1.7rem;
+  color: var(--gray-text-color); /* Light gray color */
+  text-align: center;
+  margin-top: 1rem; /* Space between the title and subtitle */
+  font-weight: 400; /* Lighter weight for the subtitle */
+}
+
+.project-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  margin: 10% auto;
+  padding: 20px;
+  width: 90%; /* More responsive width */
+  max-width: 600px; /* Max width for large screens */
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Space between image and title */
+  border-radius: 5px; /* Slightly rounded edges */
+}
+
+.modal-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--main-text-color);
+  margin-bottom: 10px; /* Space between title and description */
+}
+
+.modal-description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--gray-text-color);
+  margin-bottom: 10px; /* Add spacing for cleanliness */
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--gray-color-2);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: var(--secondary-accent);
+}
+
+/* Hover Link */
+.visit-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(0, 0, 255);
+  text-decoration: none;
+}
+
+.visit-link:hover {
+  color: red;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+
+/* Modal Link */
+.modal-link {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--secondary-accent);
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.modal-link:hover {
+  text-decoration: underline;
+}
+
+@keyframes jumping-dots {
+  0% {
+    top: 0;
+  }
+
+  40% {
+    top: -6px;
+  }
+
+  80% {
+    top: 0;
+  }
+}
+
+</code>
+
+css\media.css:
+<code>
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Responsive Styling for Phone/Tablet */
+@media (max-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .container {
+    max-width: 72rem;
+  }
+
+  .logo {
+    font-size: 2.4rem;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-btn {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    z-index: 1100;
+  }
+
+  .nav-btn img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .nav-link.active {
+    color: #007bff;
+  }
+
+  .hero {
+    padding-top: 16rem;
+  }
+
+  .hero-heading {
+    font-size: 4.8rem;
+    text-align: center;
+  }
+
+  .about-skills,
+  .about-content,
+  .service-card,
+  .hero-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .project-box {
+    max-width: 100%;
+  }
+
+  .about,
+  .projects,
+  .contact {
+    padding: 7rem 0;
+  }
+
+  .about-title,
+  .projects-title,
+  .contact-title {
+    margin-bottom: 3rem;
+  }
+
+  /* ——— NEW: Hero image full-width & centered ——— */
+  .hero-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center !important;
+    margin-top: 2rem;
+  }
+  .hero-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* ——— NEW: Social icon sizing ——— */
+  .social-links-row a {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    max-width: 54.5rem;
+  }
+
+  .hero-heading {
+    font-size: 4rem;
+  }
+
+  .nav.open {
+    gap: 1.5rem;
+  }
+
+  .nav-btn img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  /* finer social icons */
+  .social-links-row a {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media (max-width: 406px) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav-link {
+    font-size: 1.8rem;
+  }
+
+  .footer-copyright p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* tiniest phones */
+  .social-links-row a {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-download-btn {
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .about-download-btn {
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+}
+
+/* stray empty media query removed */
+
+</code>
+
+css\reset.css:
+<code>
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+</code>
+
+js\main.js:
+<code>
+// Select navigation elements
+const nav = document.querySelector("#nav");
+const navBtn = document.querySelector("#nav-btn");
+const navBtnImg = document.querySelector("#nav-btn-img");
+
+// Preloader
+function hidePreloader() {
+  const preloader = document.getElementById("preloader");
+  preloader.style.display = "none";
+}
+
+window.addEventListener("load", function () {
+  setTimeout(hidePreloader, 1700);
+});
+
+// Hamburger menu toggle
+navBtn.onclick = (event) => {
+  event.stopPropagation(); // Prevent click propagation to the document
+  const isOpen = nav.classList.toggle("open");
+  navBtnImg.src = isOpen ? "img/icons/close.webp" : "img/icons/open.webp";
+};
+
+// Close menu when clicking outside
+document.addEventListener("click", (event) => {
+  if (!nav.contains(event.target) && !navBtn.contains(event.target)) {
+    nav.classList.remove("open");
+    navBtnImg.src = "img/icons/open.webp";
+  }
+});
+
+// Sticky header & "Go to Top" button
+window.addEventListener("scroll", function () {
+  const header = document.querySelector("#header");
+  const hero = document.querySelector("#home");
+  let triggerHeight = hero.offsetHeight - 170;
+
+  if (window.scrollY > triggerHeight) {
+    header.classList.add("header-sticky");
+    goToTop.classList.add("reveal");
+  } else {
+    header.classList.remove("header-sticky");
+    goToTop.classList.remove("reveal");
+  }
+});
+
+// AOS animations settings
+AOS.init({
+  once: true,
+});
+
+// Modal functionality
+document.addEventListener("DOMContentLoaded", () => {
+  const projectBoxes = document.querySelectorAll(".project-box");
+  const modal = document.getElementById("project-modal");
+  const modalImg = document.getElementById("modal-img");
+  const modalTitle = document.getElementById("modal-title");
+  const modalText = document.getElementById("modal-text");
+  const closeModal = document.querySelector(".close-modal");
+
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      const imgSrc = box.querySelector(".project-img").src;
+      const title = box.querySelector("h5").textContent;
+      const link = box.dataset.link;
+      const caption = box.dataset.description.replace(/•/g, "<br>•");
+
+      modal.style.display = "block";
+      modalImg.src = imgSrc;
+      modalTitle.textContent = title;
+      modalText.innerHTML = `
+        <a href="${link}" target="_blank" class="visit-link modal-link">
+          Visit the project here
+        </a><br><br>
+        ${caption}`;
+    });
+  });
+
+  closeModal.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  window.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+});
+
+</code>
+
